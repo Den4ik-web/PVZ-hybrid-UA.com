@@ -1,8 +1,7 @@
 
 /* Загальне оформлення */
 body {
-    background-image: "https://img.freepik.com/free-vector/realistic-christmas-background-with-baubles-branches_79603-2224.jpg";
-    opacity:0.5;
+    background-image: url(https://img.freepik.com/free-vector/realistic-christmas-background-with-baubles-branches_79603-2224.jpg);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
