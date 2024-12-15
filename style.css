@@ -1,4 +1,91 @@
-body{
-  background-image: "https://img.freepik.com/free-vector/realistic-christmas-background-with-baubles-branches_79603-2224.jpg";
-  opacity:0.5;
+
+/* Загальне оформлення */
+body {
+    background-image: "https://img.freepik.com/free-vector/realistic-christmas-background-with-baubles-branches_79603-2224.jpg";
+    opacity:0.5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 750px;
+    border: 2px solid #ddd;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-link:hover {
+    background-color: darkred;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+#description, #zombie-info, #updates {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: darkblue;
+    margin-bottom: 10px;
+    border-bottom: 2px solid darkblue;
+    padding-bottom: 5px;
+}
+
+.description-image, .site-banner {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #ccc;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-top: 2px solid #ccc;
+}
+
+footer a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
 }
